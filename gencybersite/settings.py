@@ -59,7 +59,7 @@ ROOT_URLCONF = 'gencybersite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['static/ember'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

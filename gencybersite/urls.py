@@ -15,6 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import *
 from django.contrib import admin
+from api import views
 
 
 urlpatterns = [
@@ -22,4 +23,6 @@ urlpatterns = [
 
     #API
     url(r'^api/', include('api.urls')),
+    # home
+    url(r'^', views.home),
 ]
