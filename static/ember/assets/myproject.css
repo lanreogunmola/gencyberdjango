@@ -5,6 +5,7 @@ body { padding-top: 70px; }
 .search-field {
 	padding-top: 8px;
 	padding-right: 10px;
+	width: 100%;
 }
 
 .tag-button {
@@ -20,4 +21,32 @@ body { padding-top: 70px; }
 	min-height: 64px;
 	min-width: 64px;
 	max-width: 240px;
+}
+
+.auth-user-field {
+	width: 150px !important;
+}
+
+.search-form {
+	float: left;
+}
+
+.navbar-brand {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	z-index: -1;
+}
+
+.auth-mgr {
+	float: right;
+}
+
+.left-menu {
+	margin-top: -8px;
+}
+
+.profile-feed-img {
+	min-width: 100%;
 }
